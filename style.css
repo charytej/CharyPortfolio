@@ -1226,3 +1226,75 @@ button:focus-visible {
   }
 }
 
+
+/* ---------- Add Ons ---------- */
+
+about .about-copy p {
+  color: #a9b7c8;
+}
+
+about .about-copy strong {
+  color: #ffffff;
+}
+
+about .about-pills span {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #b7c5d6;
+}
+
+/* ---------- Add Ons ---------- */
+
+expertise .expertise-list {
+  border-color: rgba(255, 255, 255, 0.10);
+}
+
+expertise .expertise-item {
+  border-color: rgba(255, 255, 255, 0.10);
+}
+
+expertise .expertise-item:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+expertise .expertise-item h3 {
+  color: #ffffff;
+}
+
+expertise .expertise-item p {
+  color: #9aa9bb;
+}
+
+expertise .expertise-number {
+  color: #667a92;
+}
+
+/* ---------- Add Ons ---------- */
+
+experience .timeline::before {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+experience .timeline-content {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+experience .timeline-content h3 {
+  color: #ffffff;
+}
+
+experience .timeline-content h4 {
+  color: #c1cedd;
+}
+
+experience .timeline-content p,
+experience .timeline-content li {
+  color: #98a8ba;
+}
+
+experience .timeline-date {
+  color: #6f849c;
+}
+
+
+
