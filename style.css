@@ -556,10 +556,50 @@ img {
 
 /* ---------- Skills ---------- */
 
-.skills-grid {
+/* .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
+} */
+
+.skills-grid {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 10px 5px 25px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+
+  /* Hide scrollbar - Chrome, Edge, Safari */
+  scrollbar-width: thin;
+  scrollbar-color: #0a7cff rgba(255, 255, 255, 0.08);
+}
+
+/* Each card */
+.skills-grid .skill-card {
+  flex: 0 0 320px;
+  min-height: 255px;
+  scroll-snap-align: start;
+}
+
+/* Chrome / Edge / Safari scrollbar */
+.skills-grid::-webkit-scrollbar {
+  height: 7px;
+}
+
+.skills-grid::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+}
+
+.skills-grid::-webkit-scrollbar-thumb {
+  background: #0a7cff;
+  border-radius: 20px;
+}
+
+.skills-grid::-webkit-scrollbar-thumb:hover {
+  background: #21c4a8;
 }
 
 .skill-card {
