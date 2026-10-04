@@ -556,12 +556,6 @@ img {
 
 /* ---------- Skills ---------- */
 
-/* .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-} */
-
 .skills-grid {
   display: flex;
   gap: 20px;
